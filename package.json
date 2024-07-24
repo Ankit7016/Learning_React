@@ -1,0 +1,32 @@
+{
+  "name": "learning_react",
+  "version": "1.0.0",
+  "description": "this is a my first react app with namaste react ",
+  "scripts": {
+    "start": "parcel index.html",
+    "build":"parcel build index.html",
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ankit7016/Learning_React.git"
+  },
+  "keywords": [
+    "this_is_ankit's_react"
+  ],
+  "author": "Ankit_kaklotar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ankit7016/Learning_React/issues"
+  },
+  "homepage": "https://github.com/Ankit7016/Learning_React#readme",
+  "dependencies": {
+    "parcel": "^2.12.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-doom": "^1.0.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
