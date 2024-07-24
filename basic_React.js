@@ -1,14 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const newRoot = React.createElement("div", { id: "Div" }, [
-  React.createElement("h1", { id: "heading." }, "This iS H1 Tag"),
-  React.createElement("h2", { id: "heading.." }, "This iS H2 Tag"),
-  React.createElement("h3", { id: "heading..-" }, "This iS H3 Tag"),
-  React.createElement("h4", { id: "heading..." }, "This iS H4 Tag"),
-  React.createElement("h4", { id: "heading...." }, "This iS H4 Tag")
-]);
+const NeH1FunctionalComponent = () => (
+  <h1 className="h1Title">This Is React first functional component</h1>
+);
+const NeH2FunctionalComponent = () => (
+  <div id="thiisDiv">
+    <NeH1FunctionalComponent />
+    <h1 className="h1Title">This Is React second functional component</h1>
+  </div>
+);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(newRoot);
+root.render(<NeH2FunctionalComponent />);
